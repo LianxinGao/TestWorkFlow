@@ -33,4 +33,4 @@ jobs:
     - name: Build and Test with Maven
       run: |
         mvn -B package --file pom.xml
-        java -jar ./target/*jar-with-dependencies.jar
+        java -jar ./target/TestWorkFlow-1.0-SNAPSHOT.jar
