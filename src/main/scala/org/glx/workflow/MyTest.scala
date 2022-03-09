@@ -13,5 +13,6 @@ object MyTest {
     val db = RocksDB.open("./testOutput/test.db")
     db.put(Array(1.toByte), Array(233.toByte))
     require(Array(233.toByte) sameElements db.get(Array(1.toByte)))
+    println("run my Code !!!!!!!!!!!!!!!!!!!")
   }
 }
