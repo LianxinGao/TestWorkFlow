@@ -1,7 +1,8 @@
-package org.glx.workflow
+package org.glx.test
 
-import org.junit.jupiter.api.Test
-import org.junit.jupiter.api.Assertions._
+import org.junit.Assert.assertEquals
+import org.junit.Test
+
 
 /**
  * @program: TestWorkFlow
@@ -9,7 +10,7 @@ import org.junit.jupiter.api.Assertions._
  * @author: LiamGao
  * @create: 2022-03-09 10:00
  */
-class MyTestDemo {
+class MyDemoTest {
 
   @Test
   def test1(): Unit ={
