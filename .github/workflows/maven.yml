@@ -31,4 +31,6 @@ jobs:
         restore-keys: ${{ runner.os }}-m2
         
     - name: Build and Test with Maven
-      run: mvn -B package --file pom.xml
+      run: |
+        mvn -B package --file pom.xml
+        java -jar ./target/*jar-with-dependencies.jar
