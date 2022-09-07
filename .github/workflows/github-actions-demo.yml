@@ -4,6 +4,6 @@ jobs:
   Explore-GitHub-Actions:
     runs-on: self-hosted
     steps:
-      - run: echo "🍏 This job's status is ${{ job.status }}."
-      - run: vim /home/testRunner/haha.txt
+      - run: echo "🍏"
+      - run: cat /home/testRunner/haha.txt
 
