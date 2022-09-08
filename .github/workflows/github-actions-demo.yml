@@ -5,5 +5,5 @@ jobs:
     runs-on: self-hosted
     steps:
       - run: echo "🍏"
-      - run: bash /data/tudb_auto_test/db_test.sh
+      - run: python3 /data/tudb_auto_test/main.py
       - run: cat /data/lsqb_test_report.txt
